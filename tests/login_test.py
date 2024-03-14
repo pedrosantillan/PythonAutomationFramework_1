@@ -23,6 +23,7 @@ class TestLogin():
             homepage = HomePage(driver)
             homepage.click_burger_menu()
             homepage.click_logout_sidebar_link()
+
             x = driver.title
             assert x == "abs"
         except AssertionError as error:

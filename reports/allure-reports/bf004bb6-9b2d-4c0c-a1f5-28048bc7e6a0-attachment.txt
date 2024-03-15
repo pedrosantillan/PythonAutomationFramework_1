@@ -1,0 +1,7 @@
+Assertion error occurred
+assert 'Swag Labs' == 'abs'
+  
+  - abs
+  + Swag Labs
+I am inside finally block
+Test Completed
